@@ -4,7 +4,7 @@ body {
 
 header {
   /* Sets background color to black. */
-  background-color: #000;
+  background-color: #0B1C51;
   /* Adds 40 pixels of space under the header
      so that the main content isn't so close
      to the navigation. */
@@ -12,6 +12,8 @@ header {
 }
 
 header h1 {
+  font-family: "Gochi Hand";
+  font-size: 52px;
   /* Sets text color to white. */
   color: #fff;
   /* Centers the text. */
@@ -52,6 +54,7 @@ header nav ul {
 }
 
 header nav ul li a {
+  font-family: montserrat;
   /* The link color is white. */
   color: #fff;
   /* Removes the underline from the link. */
@@ -82,6 +85,7 @@ header nav ul li:last-child a {
     }
   
     header h1 {
+      font-size: 48px;
       /* Sets 14 pixels of margin above and below the `h1` and sets 
           0 pixels of margin to the left and right. */
       margin: 14px 0;
@@ -94,7 +98,7 @@ header nav ul li:last-child a {
         Pushes the navigation container down by 8 pixels to make it
         present a little better visually within the space.
       */
-      margin-top: 8px;
+      margin-top: 14px;
     }
     /* Users cannot hover on mobile devices, so that is why you
        implement this behavior only for larger screens. */
