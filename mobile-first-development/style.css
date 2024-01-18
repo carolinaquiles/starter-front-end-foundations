@@ -20,19 +20,6 @@ h3 {
   border-bottom: 1px solid lightgray;
 }
 
-main p {
-  font-family: "Roboto", sans-serif;
-  margin-top: 0;
-}
-
-.bg-primary {
-  background-color: #775f47;
-}
-
-.group img {
-  width: 100%;
-}
-
 /* Groups & Items */
 
 .group {
@@ -50,17 +37,12 @@ main p {
   flex: 2;
 }
 
-.main img {
-  width: 100%;
-}
-/* Groups and items (Desktop) */
-
+/* Groups & Items  (Desktop) */
 @media all and (min-width: 800px) {
   section,
   h1 {
     padding: 0 10%;
   }
-
   .group {
     flex-direction: row;
   }
